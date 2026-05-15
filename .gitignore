@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Workshop-specific (pliki pobierane automatycznie podczas uruchamiania)
+data/                 # MNIST pobiera się tutaj przy pierwszym uruchomieniu
+yolov8*.pt            # YOLO modele - auto-download
+yolov*.pt
+runs/                 # ultralytics tworzy ten folder z wynikami detekcji
+
+# Logi i tymczasowe
+*.log
+*.tmp
